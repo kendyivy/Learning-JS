@@ -1,0 +1,6 @@
+function areaOfTriangle(){
+	var height=10;
+	var base=5;
+	var area=1/2*base*height;
+	console.log
+}
