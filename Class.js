@@ -1,14 +1,21 @@
-class Triangle{
-	constructor(base,height){
-    this .base = base;
-    this.height= height;
+class Circle{
+	constructor(radius){
+    this .radius= radius;
 	}
 	calcArea(){
-	return 0.5*(this.height*this.base);
+	return 3.14*(this.radius*this.radius);
+	}
+	calcPerimeter(){
+		return 3.14*(2*this.radius);
+	}
+	calcDiameter(){
+		return 2*(this.radius);
 	}
 }
-const triangle = new Triangle(20,30);
-console.log(triangle.calcArea());
+const circle= new Circle(30);
+console.log(circle.calcArea());
+console.log(circle.calcPerimeter());
+console.log(circle.calcDiameter());
 
 
 
